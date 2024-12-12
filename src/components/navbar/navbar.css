@@ -1,0 +1,86 @@
+.navbar {
+  width: 97%;
+  margin: auto;
+  padding: 10px 5px 0;
+}
+.navbar .logo {
+  line-height: 10px;
+}
+.navbar .logo img {
+  width: 100%;
+}
+.navbar .icons.flexCenterSpace {
+  background-color: #fff;
+  color: #000;
+  font-size: 22px;
+  gap: 25px;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+.navbar ul.flexCenterSpace {
+  gap: 50px;
+  color: var(--text-color);
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.navbar ul.flexCenterSpace li:hover {
+  color: var(--main-color);
+}
+.navbar .toggleIcon,
+.navbar .closeMenu {
+  font-size: 24px;
+  color: var(--text-color);
+  cursor: pointer;
+  display: none;
+}
+@media (max-width: 1120px) {
+  .navbar ul.flexCenterSpace {
+    gap: 30px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 974px) {
+  .navbar .logo {
+    width: 200px;
+  }
+  .navbar ul.flexCenterSpace {
+    gap: 20px;
+  }
+}
+@media (max-width: 900px) {
+  .navbar .toggleIcon:active {
+    color: var(--main-color);
+  }
+  .navbar .toggleIcon,
+  .navbar .closeMenu {
+    display: block;
+  }
+  .navbar .closeMenu {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    transition: 0.3s;
+  }
+  .navbar .closeMenu:hover {
+    color: #ff4f4f;
+  } 
+  .navbar .links {
+    color: var(--text-color);
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    background: white;
+    font-weight: 500;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+    transition: all 350ms ease-in;
+    z-index: 10;
+  }
+  .navbar ul.flexCenterSpace {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+  }
+}

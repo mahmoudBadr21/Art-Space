@@ -1,0 +1,25 @@
+.about {
+  background-image: linear-gradient(#00000090, #0000009c), url(../../assets/about-as.png);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+}
+.aboutCotent {
+  width: 75%;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+  gap: 100px;
+  align-items: center;
+  padding-bottom: 200px;
+}
+.about .aboutTitle {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 5px;
+
+}
+.about .aboutPrag {
+  font-size: 22px;
+  font-weight: 600;
+}

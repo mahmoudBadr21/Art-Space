@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-color: #002366;
+  --backgroud-color: #F9F9F9;
+  --text-color: #020210;
+  --prag-color: #57575F;
+  --bottun-color: #D4AF37;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: var(--backgroud-color);
+  font-family: "Cairo", sans-serif;
+}
+.app {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.flexCenterSpace {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flexCenterStart {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+li {
+  list-style: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.main-title {
+  font-size: 38px;
+  font-weight: 600;
+  color: #121212;
+  
+}
+.marTop {
+  margin-top: 12px;
+}
+.iconHeart {
+  color: #858396;
+  font-size: 20px;
+}
+.girdRepeat {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 40px;
+}
+.mainPadding {
+  padding: 80px 0;
+}

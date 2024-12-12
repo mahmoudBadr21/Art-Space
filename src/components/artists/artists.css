@@ -1,0 +1,64 @@
+.distArtists .distArtistsTitle {
+  font-size: 36px;
+  font-weight: 500;
+  text-align: center;
+  color: var(--main-color);
+  margin-bottom: 45px;
+}
+.distArtists .distArtistsCards{
+  margin: 0 auto;
+}
+.distArtists .distArtistsCard {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  text-align: center;
+}
+.distArtists .distArtistsCard .distArtistImage {
+  height: fit-content;
+  width: 100%;
+}
+.distArtists .distArtistsCard .distArtistImage img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.distArtists .distArtistsCard {
+  font-weight: 500;
+}
+.distArtists .distArtistsCard .distArtistName {
+  font-size: 20px;
+}
+.distArtists .distArtistsCard .distArtistJob {
+  font-size: 16px;
+}
+.distArtists .distArtistsCard .distArtistsocial {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.distArtists .distArtistsCard .distArtistsocial a {
+  font-size: 24px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #F4F4F4;
+  text-align: center;
+}
+.distArtists .distArtistsCard .distArtistsocial a.facebook{
+  color: #336DFF;
+}
+.distArtists .distArtistsCard .distArtistsocial a.instagram{
+  color: #131523;
+}
+.distArtists .distArtistsCard .distArtistsocial a.youtube{
+  color: #F0142F;
+}
+.distArtists .distArtistsCard .distArtistsocial a.twitter{
+  color: #1e90ff;
+}
+.distArtists .distArtistsCard .distArtistsocial a i {
+  margin: auto;
+}

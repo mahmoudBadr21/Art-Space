@@ -1,0 +1,207 @@
+.home {
+  padding-bottom: 60px;
+}
+.home > div:not(.header) {
+  min-height: 100vh;
+}
+/* categories in home page */
+.home .categories .content {
+  width: 45%;
+  font-size: 26px;
+  font-weight: 700;
+  color: #2B2B3D;
+}
+.home .categories .content span {
+  color: var(--bottun-color);
+}
+.home .categories .catCards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  gap: 15px;
+  margin-top: 20px;
+}
+.home .categories .catCards .catCard {
+  padding: 10px;
+  text-align: center;
+  border-radius: 14px;
+}
+.home .categories .catCards .catCard h3 {
+  color: #57575F;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.samll {
+  width: 183px;
+  height: 140.5px;
+  border-radius: 12px;
+}
+.big {
+  width: 350px;
+  height: 213px;
+  border-radius: 14px;
+}
+.gray {
+  background: #EEEEFF;
+}
+.red {
+  background: #FFF0FF;
+}
+.green {
+  background: #EDFFFF;
+}
+.yellow {
+  background: #FFFFF0;
+}
+@media (max-width: 1124px) {
+  .home > div:not(.header) {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 860px) {
+  .home .categories .content {
+    width: 100%;
+  }
+  .home .categories .catCards {
+    justify-content: center;
+  }
+}
+
+/* artists in home page */
+.artists .artisCards {
+  margin-top: 20px;
+  width: 100%;
+}
+.artists .artisCard {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 14px;
+  border: 1px solid #E3E3E3
+}
+.artists .artisCard .artisImage,
+.raise .raiCard .raiImage {
+  width: 100%;
+  height: 263px;
+}
+.artists .artisCard .artisImage img,
+.raise .raiCard .raiImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 14px;
+}
+.artists .artisCards .artisText h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #020210;
+  margin-top: 10px;
+}
+.artists .artisCards .artisText p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #2E2E38;
+  margin-top: 10px;
+}
+
+/* raise in home page */
+.raise .raiCards,
+.market .martCards,
+.events .eveCards {
+  width: 95%;
+  margin: 20px auto 0;
+}
+.raise .raiCard,
+.market .martCard,
+.events .eveCard,
+.singlePage .sinArtWorksCard {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 14px;
+  border: 1px solid #E3E3E3
+}
+.raise .raiCard .raiImage,
+.market .martCard .martImage,
+.events .eveCards .eveImage,
+.singlePage .sinArtWorks .sinArtImage {
+  height: fit-content;
+  width: 100%;
+}
+.raise .raiCard .raiImage img,
+.market .martCard .martImage img,
+.events .eveCards .eveImage img,
+.singlePage .sinArtWorks .sinArtImage img {
+  height: 194px;
+  width: 100%;
+}
+.raise .raiCard .raiImage .hourLeft {
+  text-align: center;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 500;
+  color: #A10A0A;
+}
+.raise .raiCard .raiImage .hourLeft i {
+  font-size: 14px;
+  color: #2381FF;
+}
+.raise .raiCard .raiText span,
+.market .martCard .martText span,
+.events .eveCard .eveText span,
+.singlePage .sinArtWorksCard .sinArtText span {
+  padding: 5px 10px;
+  color: var(--main-color);
+  background: #EEF5FF;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.raise .raiCard .itemName,
+.market .martCard .itemName,
+.events .eveCard .itemName,
+.events .eveCard .itemPlace,
+.singlePage .sinArtWorksCard .itemName {
+  font-size: 20px;
+  font-weight: 500;
+  color: #2B2B3D;
+}
+.raise .raiCard .highPrice {
+  margin-bottom: 12px;
+}
+.raise .raiCard .highPrice span:first-of-type {
+  font-size: 14px;
+  font-weight: 500;
+  color: #858396;
+}
+.raise .raiCard .highPrice span:last-of-type,
+.market .martCard .price span:first-of-type,
+.events .eveCard .itemDate,
+.singlePage .sinArtWorksCard .price span:first-of-type {
+  font-size: 20px;
+  font-weight: 500;
+  color: #FF7E00;
+}
+.raise .raiCard .btn button,
+.market .martCard .btn button,
+.singlePage .sinArtWorksCard .btn button {
+  font-family: Cairo;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  padding: 5px 40px;
+  border: none;
+  outline: none;
+  background: var(--bottun-color);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* market in home page */
+.market .martCard .martImage img,
+.events .eveCards .eveImage img,
+.singlePage .sinArtWorks .sinArtImage img {
+  height: 189px;
+}

@@ -1,0 +1,33 @@
+footer {
+  background: #EEF4FF;
+  padding-top: 80px;
+}
+footer .logo {
+  text-align: center;
+  margin-bottom: 50px;
+}
+footer .links {
+  margin-bottom: 40px;
+}
+footer .links ul.flexCenterSpace {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  gap: 30px;
+  justify-content: center;
+}
+footer .copyRight {
+  padding: 20px 0;
+  border-top: 1px solid #000;
+  gap: 20px;
+}
+footer .copyRight .cyRight {
+  gap: 24px;
+}
+@media (max-width: 660px) {
+  footer .links ul.flexCenterSpace,
+  footer .copyRight{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
